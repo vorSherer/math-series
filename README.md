@@ -2,11 +2,11 @@
 
 **Author**: Thomas Sherer
 
-Running Server          N/A <!-- (i.e., Deployed URL) -->
-Running Clients:        N/A <!-- (e.g., React) -->
+Running Server          N/A <!-- (i.e., Deployed URL) --> <br>
+Running Clients:        N/A <!-- (e.g., React) --> <br>
 
-Open PR at:             NN
-Lab 01 Submission PR:   NN
+Open PR at:             NN <br>
+Lab 01 Submission PR:   NN <br>
 
 ## Overview
 This was my second project for programming in Python. It required creating a function that would return the nth value from either the Fibonacci numbers or the Lucas numbers, determined by the optional first two values taken in with the nth value. If no optional parameters are provided, the function defaults to the Fibonacci value.
