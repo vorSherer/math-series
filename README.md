@@ -21,4 +21,6 @@ This app uses poetry, pytest, pytest-watch.
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-Vijayeta Rangarajan helped with composing isinstance check and test.
+__Vijayeta Rangarajan__ helped with composing isinstance check and test. <br>
+__Socratica__ on [__YouTube__](https://www.youtube.com/watch?v=Qk0zUZW-U_M&t=5s) introduced functools and lru_cache (which is *SOOOOO* kewl!). <br>
+

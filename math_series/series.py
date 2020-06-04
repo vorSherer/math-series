@@ -66,5 +66,6 @@ if __name__ == "__main__":
     print("Sum_ser(0, 0, 1) = ", sum_series(0, 0, 1))
     print("Sum_ser(0, 2, 1) = ", sum_series(0, 2, 1))
     print("Sum_series defaults to fib: ", sum_series(5))
+    print("fib(200) = ", fibonacci(200))
     
 
