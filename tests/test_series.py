@@ -62,3 +62,29 @@ def test_fib_int5():
     assert actual == expected
 
 
+# *************  Lucas series tests  ************
+
+def test_luc_0_pass():
+    expected = 2
+    actual = lucas(0)
+    assert actual == expected
+
+
+def test_luc_0_false_pos():
+    expected = 2
+    actual = lucas(1)
+    assert actual != expected
+
+
+def test_luc_less_than_0():
+    expected = "n must be an integer greater than or equal to 0."
+    actual = lucas(-1)
+    assert actual == expected
+
+
+def test_luc_4():
+    expected = 3 + 4
+    actual = lucas(4)
+    assert actual == expected
+
+

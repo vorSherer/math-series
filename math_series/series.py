@@ -23,7 +23,21 @@ def fibonacci(n):
 
 
 def lucas(n):
-    pass
+    '''
+    Given an integer value n, this function returns the nth value of the Lucas Numbers.
+    '''
+    if n < 0:
+        prompt = "n must be an integer greater than or equal to 0."
+        return prompt
+    elif n == 0:
+        value = 2
+        return value
+    elif n == 1:
+        value = 1
+        return value
+    elif n >= 2:
+        value = lucas(n-1) + lucas(n-2)
+        return value
 
 
 def sum_series(n, id1, id2):
