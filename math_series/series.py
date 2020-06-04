@@ -22,6 +22,7 @@ def fibonacci(n):
         return value
 
 
+@lru_cache(maxsize = 1000)
 def lucas(n):
     '''
     Given an integer value n, this function returns the nth value of the Lucas Numbers.
@@ -60,7 +61,6 @@ def sum_series(n, id1=0, id2=1):
 
 
 if __name__ == "__main__":
-    print("fib(2) = ", fibonacci(2))
     print("fib(5) = ", fibonacci(5))
     print("luc(10) = ", lucas(10))
     print("Sum_ser(0, 0, 1) = ", sum_series(0, 0, 1))
@@ -68,4 +68,3 @@ if __name__ == "__main__":
     print("Sum_series defaults to fib: ", sum_series(5))
     print("fib(200) = ", fibonacci(200))
     
-
