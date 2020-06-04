@@ -44,3 +44,21 @@ def test_fib_str_0():
         assert fibonacci("0") is TypeError
 
 
+def test_fib_int1():
+    expected = 1
+    actual = fibonacci(1)
+    assert actual == expected
+
+
+def test_fib_int2():
+    expected = 1
+    actual = fibonacci(2)
+    assert actual == expected
+
+
+def test_fib_int5():
+    expected = 2 + 3
+    actual = fibonacci(5)
+    assert actual == expected
+
+
