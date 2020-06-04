@@ -5,7 +5,7 @@
 Running Server          N/A <!-- (i.e., Deployed URL) --> <br>
 Running Clients:        N/A <!-- (e.g., React) --> <br>
 
-Open PR at:             NN <br>
+Open PR at:             https://github.com/vorSherer/math-series/pull/1 <br>
 Lab 01 Submission PR:   NN <br>
 
 ## Overview
