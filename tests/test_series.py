@@ -88,3 +88,29 @@ def test_luc_4():
     assert actual == expected
 
 
+# *************  Sum series tests  ************
+
+def test_sum_series_fib_0():
+    expected = 0
+    actual = sum_series(0, 0, 1)
+    assert actual == expected
+
+
+def test_sum_series_lucas_0():
+    expected = 2
+    actual = sum_series(0, 2, 1)
+    assert actual == expected
+
+
+def test_sum_series_less_than_zero():
+    expected = "n must be an integer greater than or equal to 0."
+    actual = sum_series(-1)
+    assert actual == expected
+
+
+def test_sum_series_not_fib_luc():
+    expected = "Sorry, that combination has not yet been defined."
+    actual = sum_series(4, 1, 2)
+    assert actual == expected
+
+
