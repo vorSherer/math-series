@@ -4,3 +4,11 @@ def fibonacci(n):
     '''
     pass
 
+
+def lucas(n):
+    pass
+
+
+def sum_series(n, id1, id2):
+    pass
+
