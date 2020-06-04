@@ -38,17 +38,9 @@ def test_fib_less_than_0():
     assert actual == expected
 
 
-@pytest.mark.skip
+# @pytest.mark.skip
 def test_fib_str_0():
-    expected = 0
-    actual = fibonacci("0")
-    assert actual != expected
-
-
-@pytest.mark.skip
-def test_fib_str_zero():
-    expected = 0
-    actual = fibonacci("zero")
-    assert actual != expected
+    with pytest.raises(TypeError):
+        assert fibonacci("0") is TypeError
 
 
