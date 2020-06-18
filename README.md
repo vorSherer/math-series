@@ -2,11 +2,11 @@
 
 **Author**: Thomas Sherer
 
-Running Server          N/A <!-- (i.e., Deployed URL) -->
-Running Clients:        N/A <!-- (e.g., React) -->
+Running Server          N/A <!-- (i.e., Deployed URL) --> <br>
+Running Clients:        N/A <!-- (e.g., React) --> <br>
 
-Open PR at:             NN
-Lab 01 Submission PR:   NN
+Open PR at:             https://github.com/vorSherer/math-series/pull/1 <br>
+Lab 01 Submission PR:   NN <br>
 
 ## Overview
 This was my second project for programming in Python. It required creating a function that would return the nth value from either the Fibonacci numbers or the Lucas numbers, determined by the optional first two values taken in with the nth value. If no optional parameters are provided, the function defaults to the Fibonacci value.
@@ -21,3 +21,6 @@ This app uses poetry, pytest, pytest-watch.
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+__Vijayeta Rangarajan__ helped with composing isinstance check and test. <br>
+__Socratica__ on [__YouTube__](https://www.youtube.com/watch?v=Qk0zUZW-U_M&t=5s) introduced functools and lru_cache (which is *SOOOOO* kewl!). <br>
+
